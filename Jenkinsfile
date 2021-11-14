@@ -2,8 +2,9 @@
 import com.nationalgrid.gridci.build.common.DeployParameters
 
 /**
-  Sample react deploy pipeline
+  Sample react deploy pipeline for static web app (For GitHub only)
 */
+/* groovylint-disable-next-line CompileStatic */
 
 DeployParameters params = new DeployParameters(emailRecipient: 'bcgdvsimon@gmail.com')
 infraReactDeploy(params)
